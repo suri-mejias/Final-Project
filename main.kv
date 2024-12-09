@@ -8,99 +8,130 @@ ScreenManager:
             orientation: 'vertical'
             
             Label: 
-                text: 'Welcome To Deal Or No Deal'
+                text: 'Welcome to deal or no deal!'
 
             Button:
                 text: 'Click to Start'
+                on_press: root.current = 'choose_case'
+                
 
     Screen:
         name: 'choose_case'
         
-        FloatLayout:
+        BoxLayout:
             orientation: 'vertical'
 
             Label:
-                text: 'Pick a case'
-            
+                text: "Pick a case. This is the case you'll keep throughout the game."
+
             Button:
                 id: case_1
                 text: '#1'
+
             Button:
                 id: case_2
                 text: '#2'
+
             Button:
                 id: case_3
                 text: '#3'
+
             Button:
                 id: case_4
                 text: '#4'
+
             Button:
                 id: case_5
                 text: '#5'
+
             Button:
                 id: case_6
                 text: '#6'
+
             Button:
                 id: case_7
                 text: '#7'
+
             Button:
                 id: case_8
                 text: '#8'
+
             Button:
                 id: case_9
                 text: '#9'
+
             Button:
                 id: case_10
                 text: '#10'
+
             Button:
                 id: case_11
                 text: '#11'
+
             Button:
                 id: case_12
                 text: '#12'
+
             Button:
                 id: case_13
                 text: '#13'
+
             Button:
                 id: case_14
                 text: '#14'
+
             Button:
                 id: case_15
                 text: '#15'
+
             Button:
                 id: case_16
                 text: '#16'
+
             Button:
                 id: case_17
                 text: '#17'
+
             Button:    
                 id: case_18
                 text: '#18'
             Button:
                 id: case_19
                 text: '#19'
+
             Button:
                 id: case_20
                 text: '#20'
+
             Button:
                 id: case_21
                 text: '#21'
+
             Button:
                 id: case_22
                 text: '#22'
+
             Button:
                 id: case_23
                 text: '#23'
+
             Button:
                 id: case_24
                 text: '#24'
+
             Button:
                 id: case_25
                 text: '#25'
+
             Button:
                 id: case_26
                 text: '#26'
-            
-            
+        
+    Screen:
+        name: 'game_screen'
+
+        BoxLayout:
+            orientation: 'vertical'
+
                 
             
